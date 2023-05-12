@@ -9,4 +9,4 @@ CREATE TABLE `user` (
     DEFAULT CHARSET=utf8mb4
     COLLATE=utf8mb4_0900_ai_ci;
 
-INSERT INTO `user` (`login`, `password`) VALUES ('admin', 'password'), ('user', 'password');
+INSERT INTO `user` (`login`, `password`) VALUES ('admin', SHA2('password',256)), ('user', SHA2('password',256));
