@@ -1,3 +1,3 @@
 # squelette
 
-projet exemple d'authentification SPRING+HTML simplpe à des fins pédagogiques
+projet exemple d'authentification SPRING+HTML simple à des fins pédagogiques
